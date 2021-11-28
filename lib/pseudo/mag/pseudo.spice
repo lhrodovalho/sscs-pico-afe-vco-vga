@@ -1,0 +1,21 @@
+* NGSPICE file created from pseudo.ext - technology: sky130A
+
+.subckt pseudo xp om xm op fsb q gnda vssa
+X0 xp xp om q sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X1 xm fsb op q sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X2 xm op op op sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X3 op fsb xm q sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X4 op fsb xm op sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X5 xm fsb op op sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X6 op op xm op sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X7 op xm xm q sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X8 om fsb xp q sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X9 om xp xp q sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X10 xm xm op q sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X11 xp fsb om q sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X12 xp fsb om om sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X13 xp om om om sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X14 om om xp om sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+X15 om fsb xp om sky130_fd_pr__pfet_g5v0d10v5 ad=4.2e+11p pd=2.84e+06u as=4.2e+11p ps=2.84e+06u w=420000u l=2e+07u
+.ends
+
