@@ -75227,7 +75227,7 @@ rect 10160 -80 10360 15800
 rect 10160 -200 10200 -80
 rect 10320 -200 10360 -80
 rect 10160 -960 10360 -200
-use inv_bias  biasp opamp/mag/../../inv/mag
+use inv_bias  biasp ../../inv/mag
 timestamp 1637985316
 transform 1 0 0 0 1 520
 box 0 -520 4200 5040
@@ -75235,7 +75235,7 @@ use inv_bias  biasm
 timestamp 1637985316
 transform -1 0 10440 0 1 520
 box 0 -520 4200 5040
-use inv_2_2  ap opamp/mag/../../inv/mag
+use inv_2_2  ap ../../inv/mag
 timestamp 1637985251
 transform 1 0 0 0 1 5600
 box 0 0 4200 2000
