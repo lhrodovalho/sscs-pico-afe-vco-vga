@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1638129547
+timestamp 1638207559
 << locali >>
 rect -14960 21430 -14920 21440
 rect -14960 21410 -14950 21430
@@ -48177,21 +48177,21 @@ rect 21400 -2080 21440 -1960
 rect 21560 -2080 21600 -1960
 rect 21400 -2120 21600 -2080
 use ota  ota ../../ota/mag
-timestamp 1638020595
+timestamp 1638207559
 transform 1 0 -480 0 1 2000
 box 0 -3400 20960 36800
+use cap1_10  cap2 ../../cap1_10/mag
+timestamp 1638207559
+transform 1 0 -15520 0 1 -40
+box 0 0 15000 15960
+use cap1_10  cap1
+timestamp 1638207559
+transform -1 0 -520 0 -1 37440
+box 0 0 15000 15960
 use pseudo  pseudo ../../pseudo/mag
 timestamp 1637516460
 transform 1 0 -8400 0 1 17800
 box -240 -360 6520 2160
-use cap1_10  cap1 ../../cap1_10/mag
-timestamp 1637520551
-transform -1 0 -520 0 -1 37440
-box 0 0 15000 15960
-use cap1_10  cap2
-timestamp 1637520551
-transform 1 0 -15520 0 1 -40
-box 0 0 15000 15960
 << labels >>
 rlabel metal2 -640 20240 -600 20280 1 q
 rlabel metal2 -640 19920 -600 19960 0 op

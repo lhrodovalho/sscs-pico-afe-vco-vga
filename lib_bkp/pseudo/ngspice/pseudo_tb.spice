@@ -1,0 +1,40 @@
+* pseudo-resistor testbench
+
+* Include SkyWater sky130 device models
+.lib "/usr/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+.param mc_mm_switch=0
+.include "../mag/pseudo.spice"
+
+
+* supply voltages
+vdda  vdda 0 1.8
+vssa  vssa 0 0.0
+egnda gnda vssa vdda vssa 0.5
+
+
+vo  o  gnda dc 0 ac 1
+eop op gnda o gnda  1
+eom om gnda o gnda -1
+
+
+* DUT
+x0 gnda om gnda op vdda gnda gnda vssa pseudo
+
+.save op om gnda i(eop) i(eom)
+
+.option gmin=1e-15
+.control
+
+	ac dec 1 1m 1m
+	print abs(1/i(eop))
+
+	dc vo -500m 500m 1m
+	let ii = abs(i(eop))
+	let ri = 1/abs(deriv(ii))
+	wrdata ../data/pseudo_i.txt ii ri
+	plot ylog ii
+	plot ylog ri
+    
+.endc
+
+.end
