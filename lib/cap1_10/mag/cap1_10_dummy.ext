@@ -9,18 +9,18 @@ port "gnda" 12 14800 3440 14880 3520 m4
 port "vssa" 13 14800 3600 14880 3680 li
 node "gnda" 0 147881 14800 3440 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12358400 124800 33088000 625440 0 0 0 0
 substrate "vssa" 0 0 14800 3600 li 0 0 0 0 0 0 0 0 0 0 4787200 119680 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4787200 119680 0 0 0 0 0 0 0 0 0 0 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 14400 2400 14401 2401 w=240 l=240 "None" "gnda" 320 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 12000 2400 12001 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 9600 2400 9601 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 7200 2400 7201 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 4800 2400 4801 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 2400 2400 2401 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 0 2400 1 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -2400 2400 -2399 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -4800 2400 -4799 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -7200 2400 -7199 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -9600 2400 -9599 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -12000 2400 -11999 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -12640 2400 -12639 2401 w=240 l=240 "None" "gnda" 320 0 "gnda" 0 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 14400 2400 14401 2401 w=240 l=240 "None" "gnda" 320 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 12000 2400 12001 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 9600 2400 9601 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 7200 2400 7201 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 4800 2400 4801 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 2400 2400 2401 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 0 2400 1 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -2400 2400 -2399 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -4800 2400 -4799 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -7200 2400 -7199 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -9600 2400 -9599 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -12000 2400 -11999 2401 w=2000 l=240 "None" "gnda" 3840 0 "gnda" 84 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -12640 2400 -12639 2401 w=240 l=240 "None" "gnda" 320 0 "gnda" 84 0
 subcap "gnda" -147851
 subcap "vssa" -32736

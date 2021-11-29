@@ -31,37 +31,37 @@ node "bp" 1862 17093.9 0 2560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "vddx" 43614 66900.6 1120 0 m5 0 0 0 0 9139200 18560 0 0 1433600 35840 0 0 0 0 240000 3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1536000 38560 1699200 50320 1344000 33920 1568000 47040 3360000 17600 3200000 17600 0 0
 node "vdda" 42414 51209.3 160 0 m5 0 0 0 0 9139200 18560 0 0 1433600 35840 0 0 0 0 120000 1600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1488000 37200 48000 1360 32000 960 32000 960 3360000 17600 3200000 17600 0 0
 substrate "vssa" 0 0 3040 0 m5 0 0 0 0 0 0 0 0 0 0 4492800 112320 40000 800 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4617600 114800 16000 560 16000 560 16000 560 3360000 17600 3200000 17600 0 0
-cap "vddx" "pa1" 12.8571
-cap "vddx" "pb3" 68.7
-cap "vdda" "pa3" 273.8
-cap "n3" "gnda" 63.3333
-cap "vddx" "pa2" 12.8571
-cap "gnda" "n1" 63.3333
-cap "vddx" "gnda" 9209.56
-cap "vdda" "pa1" 273.8
-cap "vddx" "pb2" 68.7
-cap "pa2" "vdda" 273.8
-cap "vddx" "bp" 27433.1
-cap "gnda" "pa3" 146.8
-cap "gnda" "vdda" 6477.92
-cap "gnda" "pb1" 168.4
-cap "vddx" "in" 5342.86
-cap "gnda" "pa1" 146.8
-cap "bp" "vdda" 6885.34
-cap "gnda" "pb3" 168.4
-cap "gnda" "pa2" 146.8
-cap "vddx" "out" 656.52
-cap "vdda" "in" 889.2
-cap "gnda" "pb2" 168.4
-cap "bp" "gnda" 1571.28
-cap "out" "vdda" 568.56
-cap "gnda" "in" 25866.3
-cap "n2" "gnda" 63.3333
-cap "gnda" "out" 20258.9
-cap "vddx" "pa3" 12.8571
-cap "vddx" "vdda" 18805.6
-cap "vddx" "pb1" 68.7
 cap "out" "in" 2377.2
+cap "vddx" "pa1" 12.8571
+cap "vddx" "pa2" 12.8571
+cap "vddx" "pa3" 12.8571
+cap "vddx" "pb3" 68.7
+cap "n2" "gnda" 63.3333
+cap "vdda" "pa1" 273.8
+cap "vddx" "out" 656.52
+cap "vdda" "pa2" 273.8
+cap "pa3" "vdda" 273.8
+cap "pa1" "gnda" 146.8
+cap "vddx" "in" 5342.86
+cap "out" "vdda" 568.56
+cap "pa2" "gnda" 146.8
+cap "pa3" "gnda" 146.8
+cap "pb3" "gnda" 168.4
+cap "out" "gnda" 20258.9
+cap "vdda" "in" 889.2
+cap "bp" "vddx" 27433.1
+cap "gnda" "in" 25866.3
+cap "vddx" "pb2" 68.7
+cap "vddx" "vdda" 18805.6
+cap "bp" "vdda" 6885.34
+cap "n3" "gnda" 63.3333
+cap "vddx" "gnda" 9209.56
+cap "vddx" "pb1" 68.7
+cap "bp" "gnda" 1571.28
+cap "pb2" "gnda" 168.4
+cap "vdda" "gnda" 6477.92
+cap "n1" "gnda" 63.3333
+cap "pb1" "gnda" 168.4
 device msubckt sky130_fd_pr__nfet_g5v0d10v5 6280 160 6281 161 l=1600 w=200 "vssa" "in" 3200 0 "n3" 200 0 "out" 200 0
 device msubckt sky130_fd_pr__nfet_g5v0d10v5 4360 160 4361 161 l=1600 w=200 "vssa" "in" 3200 0 "n2" 200 0 "n3" 200 0
 device msubckt sky130_fd_pr__nfet_g5v0d10v5 2440 160 2441 161 l=1600 w=200 "vssa" "in" 3200 0 "n1" 200 0 "n2" 200 0
