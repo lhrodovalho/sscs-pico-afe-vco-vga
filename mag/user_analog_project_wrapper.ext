@@ -1,4 +1,4 @@
-timestamp 1638215657
+timestamp 1638217027
 version 8.3
 tech sky130A
 style ngspice()
@@ -872,7 +872,7 @@ node "io_analog[1]" 1 20965.8 566594 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "vssa1" 0 36345.2 520594 702340 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22024000 64800 640000 3200 14320000 71600 0 0
 node "vssa1" 0 6519 510594 702340 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11808000 14520 0 0 0 0 0 0
 node "io_analog[2]" 0 86777.8 465394 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23057600 67788 50240000 252000 9360000 48400 0 0
-node "io_analog[3]" 0 86403.2 413394 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22962400 69612 49600000 248800 9360000 48400 0 0
+node "io_analog[3]" 0 86594.2 413394 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23462400 69812 49600000 248800 9360000 48400 0 0
 node "io_analog[4]" 0 6825 329294 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12500000 15000 0 0 0 0 0 0
 node "io_clamp_high[0]" 0 3577 326794 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5500000 9400 0 0 0 0 0 0
 node "io_clamp_low[0]" 0 3577 324294 702300 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5500000 9400 0 0 0 0 0 0
@@ -1387,46 +1387,46 @@ node "wbs_ack_o" 1 631.648 2888 -800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "wb_rst_i" 1 631.648 1706 -800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 143360 2784 0 0 0 0 0 0 0 0
 node "wb_clk_i" 1 631.648 524 -800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 143360 2784 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "io_analog[4]" "io_analog[6]" 792
-cap "io_analog[5]" "io_analog[0]" 3874
-cap "io_analog[4]" "io_analog[4]" 26250
-cap "vssa1" "io_analog[0]" 3960
-cap "io_clamp_low[0]" "io_clamp_high[0]" 525
-cap "io_analog[4]" "io_analog[0]" 19010.9
-cap "io_analog[5]" "io_analog[5]" 26250
-cap "io_clamp_high[1]" "io_analog[5]" 525
-cap "io_clamp_low[2]" "io_clamp_high[2]" 525
-cap "io_analog[2]" "io_analog[0]" 5364
-cap "io_analog[4]" "io_clamp_low[0]" 525
-cap "io_analog[6]" "io_analog[6]" 26392
-cap "io_analog[2]" "io_analog[1]" 792
-cap "io_analog[4]" "io_analog[4]" 21250
-cap "io_analog[6]" "io_analog[0]" 3168
-cap "io_clamp_low[1]" "io_clamp_high[1]" 525
-cap "io_analog[5]" "io_analog[5]" 108
-cap "io_analog[4]" "io_analog[4]" 26392
-cap "io_analog[3]" "vssa1" 792
-cap "io_analog[4]" "io_analog[4]" 21250
 cap "io_analog[6]" "io_analog[6]" 26250
+cap "io_analog[0]" "io_analog[4]" 19010.9
+cap "vssa1" "io_analog[3]" 792
 cap "io_analog[5]" "io_clamp_low[1]" 525
-cap "io_analog[1]" "io_analog[0]" 3168
-cap "io_analog[6]" "io_clamp_low[2]" 525
-cap "io_analog[3]" "io_analog[2]" 1584
-cap "io_analog[5]" "io_analog[5]" 21250
-cap "io_analog[6]" "io_analog[6]" 21250
-cap "io_analog[4]" "io_analog[5]" 792
-cap "io_analog[5]" "io_analog[5]" 21250
-cap "io_clamp_high[2]" "io_analog[6]" 525
-cap "io_analog[3]" "io_analog[0]" 5364
-cap "io_analog[6]" "io_analog[6]" 108
-cap "io_analog[5]" "io_analog[5]" 26392
-cap "io_analog[3]" "io_analog[1]" 792
-cap "io_analog[2]" "vssa1" 792
+cap "io_analog[5]" "io_analog[5]" 108
 cap "io_analog[6]" "io_analog[5]" 792
+cap "io_analog[4]" "io_analog[4]" 21250
+cap "io_analog[4]" "io_clamp_high[0]" 525
+cap "io_analog[6]" "vssa1" 792
+cap "io_analog[6]" "io_clamp_high[2]" 525
+cap "io_analog[5]" "io_analog[5]" 21250
+cap "io_analog[0]" "io_analog[5]" 3874
+cap "io_analog[2]" "io_analog[3]" 1584
+cap "vssa1" "io_analog[2]" 792
+cap "io_analog[6]" "io_analog[6]" 108
+cap "io_analog[4]" "io_analog[4]" 26392
+cap "io_analog[0]" "io_analog[3]" 5364
+cap "io_analog[0]" "vssa1" 3960
+cap "io_clamp_low[0]" "io_clamp_high[0]" 525
+cap "io_analog[3]" "io_analog[1]" 792
+cap "io_analog[0]" "io_analog[6]" 3168
+cap "io_clamp_low[2]" "io_analog[6]" 525
+cap "io_analog[5]" "io_analog[5]" 26392
+cap "io_analog[4]" "io_analog[5]" 792
 cap "io_analog[4]" "io_analog[4]" 108
+cap "io_analog[4]" "io_analog[4]" 21250
+cap "io_analog[0]" "io_analog[2]" 5364
+cap "io_analog[2]" "io_analog[1]" 792
+cap "io_clamp_high[2]" "io_clamp_low[2]" 525
+cap "io_analog[5]" "io_clamp_high[1]" 525
+cap "io_analog[5]" "io_analog[5]" 21250
+cap "io_analog[0]" "io_analog[1]" 3168
+cap "io_analog[6]" "io_analog[6]" 26392
+cap "io_analog[6]" "io_analog[4]" 792
 cap "io_analog[6]" "io_analog[6]" 21250
-cap "io_clamp_high[0]" "io_analog[4]" 525
-cap "vssa1" "io_analog[6]" 792
+cap "io_analog[5]" "io_analog[5]" 26250
+cap "io_analog[6]" "io_analog[6]" 21250
+cap "io_clamp_high[1]" "io_clamp_low[1]" 525
+cap "io_analog[4]" "io_clamp_low[0]" 525
+cap "io_analog[4]" "io_analog[4]" 26250
 subcap "wb_clk_i" -296.744
 subcap "wb_clk_i" -334.904
 subcap "wbs_sel_i[1]" -264.308
@@ -1615,13 +1615,13 @@ subcap "io_out[13]" -200.4
 subcap "io_oeb[13]" -200.4
 subcap "vccd1" -6054.85
 subcap "vccd2" -6027.17
-cap "afe_0/m4_124400_37360#" "io_analog[0]" 83.75
-cap "io_analog[0]" "afe_0/m4_124400_38960#" 83.75
+cap "io_analog[0]" "afe_0/m4_124400_37360#" 83.75
+cap "afe_0/m4_124400_38960#" "io_analog[0]" 83.75
 cap "afe_0/m4_124400_40560#" "io_analog[0]" 83.75
 subcap "vccd1" -6135.45
 subcap "vccd2" -6104.17
-cap "vssa1" "afe_0/lna/vdda" 83.75
-cap "vssa1" "afe_0/lna/vdda" 251.25
+cap "afe_0/lna/vdda" "vssa1" 83.75
+cap "afe_0/lna/vdda" "vssa1" 251.25
 subcap "io_analog[0]" -1.04081e+06
 subcap "io_analog[0]" -1.04047e+06
 subcap "io_analog[10]" -6410.17
@@ -1662,6 +1662,8 @@ subcap "io_analog[4]" -6435.79
 subcap "io_analog[4]" -2532.66
 subcap "io_analog[4]" -2459.39
 subcap "io_analog[4]" -6076
+subcap "io_analog[3]" -86258.5
+subcap "io_analog[3]" -85845.2
 subcap "io_analog[2]" -86549.1
 subcap "io_analog[2]" -86028.8
 subcap "vssa1" -5775.56
@@ -1672,7 +1674,7 @@ merge "afe_0/vdda" "afe_0/lna/vdda" -68466.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "afe_0/lna/vdda" "vdda1"
 merge "afe_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "afe_0/op" "io_analog[4]" -28473.7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25000000 -30000 -25192400 -31440 -25000000 -30000 0 0
-merge "afe_0/im" "io_analog[3]" -6778.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12000000 -14800 0 0 79600 -800 0 0
+merge "afe_0/im" "io_analog[3]" -6969.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12500000 -15000 0 0 79600 -800 0 0
 merge "afe_0/ip" "io_analog[2]" -6975.03 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12500000 -15000 0 0 39800 -800 0 0
 merge "afe_0/vssa" "vssa1" -11907.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23216400 -29040 399600 0 7246000 -800 0 0
 merge "afe_0/gnda" "io_analog[0]" -7727.44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12500000 -15000 0 0 238000 -4811 0 0
