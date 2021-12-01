@@ -7,8 +7,8 @@
 
 
 * supply voltages
-vdda	vdda 0 1.8
-vgnda	gnda 0 0.9
+vdda	vdda 0 1.0
+vgnda	gnda 0 0.5
 vssa	vssa 0 0.0
 
 * input signals
@@ -16,7 +16,7 @@ vin	in gnda dc 0 ac 1 SINE(0 50m 1 0 0 0)
 einp	ip gnda in gnda  0.5
 einm	im gnda in gnda -0.5
 
-vfsb fsb vssa dc 1.8 pulse(0 1.8 1 10m 1m 10 1)
+vfsb fsb vssa dc 1.0 pulse(0 1.0 1 10m 1m 10 1)
 
 * DUT
 x0 ip im om op fsb ib vdda gnda vssa lna

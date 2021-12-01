@@ -4,10 +4,9 @@
 .lib "/usr/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
 .param mc_mm_switch=0
 .include "../mag/opamp_core.spice"
-.include "./opamp_.spice"
 
 * supply voltages
-vdda  vdda 0 3.3
+vdda  vdda 0 1.0
 vssa  vssa 0 0.0
 egnda gnda vssa vdda vssa 0.5
 
@@ -17,21 +16,16 @@ eip ip gnda in gnda  1.0
 eim im gnda in gnda  0.0
 
 * DUT
-*x0 gna gnb gpb gpa x ip im yp ym zn zp dn dp out vdda vssa opamp_core
-x1 gpa gpb gnb gna x ip im yp ym z dp dn out vdda vssa opamp_
-ib vdda gnb 10n
-cl out gnda 1p
+x0 im ip out ib q vdda bp vddx gnda vssa xn xp x y z opamp_core
+ib vdda ib 2n
+cl out gnda 10p
 ll out gnda 1T
-
-cmp out dp 10p
-cmn out dn 10p
-
 
 .option gmin=1e-12
 .control
 
 	op
-	print gpa gpb gnb gna i(vdda)
+	print ib i(vdda)
 
 	ac dec 10 1m 1Meg
 	plot vdb(out)

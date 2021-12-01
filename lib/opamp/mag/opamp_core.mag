@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1638207053
+timestamp 1638390070
 << metal2 >>
 rect 4240 12635 4440 12640
 rect 4240 12605 4245 12635
@@ -24010,38 +24010,38 @@ rect 2480 -40 2680 0
 rect 2960 -40 3160 0
 rect 3440 -40 3640 0
 rect 3920 -40 4120 0
-use invt  br ../../inv/mag
-timestamp 1637985169
-transform -1 0 10600 0 1 7640
-box 0 0 4200 3000
-use invt  bl
-timestamp 1637985169
-transform 1 0 0 0 1 7640
-box 0 0 4200 3000
-use inv_2_2  ar ../../inv/mag
-timestamp 1637985251
-transform -1 0 10600 0 1 5600
-box 0 0 4200 2000
-use inv_2_2  cr
-timestamp 1637985251
-transform -1 0 10600 0 1 10680
-box 0 0 4200 2000
-use inv_2_2  cl
-timestamp 1637985251
-transform 1 0 0 0 1 10680
-box 0 0 4200 2000
-use inv_2_2  al
-timestamp 1637985251
+use inv_2_2  al ../../inv1v8/mag
+timestamp 1638390070
 transform 1 0 0 0 1 5600
 box 0 0 4200 2000
-use inv_bias  biasr ../../inv/mag
-timestamp 1637985316
+use inv_2_2  cl
+timestamp 1638390070
+transform 1 0 0 0 1 10680
+box 0 0 4200 2000
+use inv_2_2  cr
+timestamp 1638390070
+transform -1 0 10600 0 1 10680
+box 0 0 4200 2000
+use inv_2_2  ar
+timestamp 1638390070
+transform -1 0 10600 0 1 5600
+box 0 0 4200 2000
+use inv_bias  biasr ../../inv1v8/mag
+timestamp 1638390070
 transform -1 0 10600 0 1 520
 box 0 -520 4200 5040
 use inv_bias  biasl
-timestamp 1637985316
+timestamp 1638390070
 transform 1 0 0 0 1 520
 box 0 -520 4200 5040
+use invt  bl ../../inv1v8/mag
+timestamp 1638390070
+transform 1 0 0 0 1 7640
+box 0 0 4200 3000
+use invt  br
+timestamp 1638390070
+transform -1 0 10600 0 1 7640
+box 0 0 4200 3000
 << labels >>
 rlabel metal3 4800 -40 4840 0 0 im
 port 0 nsew

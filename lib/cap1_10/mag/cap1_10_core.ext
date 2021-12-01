@@ -1,4 +1,4 @@
-timestamp 1638207275
+timestamp 1638398658
 version 8.3
 tech sky130A
 style ngspice()
@@ -12,56 +12,56 @@ port "b1" 1 14800 7120 14880 7200 m4
 port "c1" 3 14800 7440 14880 7520 m4
 port "gnda" 5 14800 7280 14880 7360 m4
 port "vssa" 6 14800 1360 14880 1440 li
-node "a" 0 43169.7 14800 4560 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 99225600 231520 0 0 0 0
-node "b2" 0 13356.6 14800 2000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4345600 8960 2214400 55520 0 0 0 0
-node "c2" 0 43173.8 14800 1680 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43712000 96000 2214400 55520 0 0 0 0
-node "b1" 0 13320.6 14800 7120 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4345600 8960 2208000 55360 0 0 0 0
-node "c1" 0 43137.8 14800 7440 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43712000 96000 2208000 55360 0 0 0 0
-node "gnda" 0 120450 14800 7280 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8793600 156800 21100800 460640 0 0 0 0
+node "a" 0 43046.2 14800 4560 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 99225600 231520 0 0 0 0
+node "b2" 0 13233.1 14800 2000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4345600 8960 2214400 55520 0 0 0 0
+node "c2" 0 43050.3 14800 1680 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43712000 96000 2214400 55520 0 0 0 0
+node "b1" 0 13197 14800 7120 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4345600 8960 2208000 55360 0 0 0 0
+node "c1" 0 43014.2 14800 7440 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43712000 96000 2208000 55360 0 0 0 0
+node "gnda" 0 116382 14800 7280 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9382400 141440 21100800 460640 0 0 0 0
 substrate "vssa" 0 0 14800 1360 li 0 0 0 0 0 0 0 0 0 0 5452800 136320 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5452800 136320 0 0 0 0 0 0 0 0 0 0 0 0
-cap "gnda" "b1" 48735.6
-cap "b1" "b2" 525
-cap "c1" "a" 93412
-cap "gnda" "c2" 66945.1
-cap "c2" "b2" 8773.73
-cap "b1" "a" 15482.9
-cap "gnda" "b2" 48886.8
-cap "c1" "b1" 8751.4
-cap "c2" "a" 93412
-cap "gnda" "a" 82032.8
+cap "gnda" "b1" 48879
+cap "c1" "gnda" 66937.3
+cap "gnda" "b2" 49030.2
+cap "gnda" "a" 82176.2
 cap "c1" "c2" 5250
-cap "gnda" "c1" 66793.9
+cap "c2" "b2" 8773.73
+cap "c2" "a" 93412
+cap "c1" "b1" 8751.4
+cap "b1" "b2" 525
+cap "b1" "a" 15482.9
+cap "c1" "a" 93412
 cap "b2" "a" 15482.9
-device csubckt sky130_fd_pr__cap_mim_m3_1 14400 2400 14401 2401 w=240 l=2000 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 12080 2400 12081 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 9680 2400 9681 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 7280 2400 7281 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 4880 2400 4881 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 2480 2400 2481 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 80 2400 81 2401 w=1840 l=2000 "None" "a" 7040 0 "b2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -2320 2400 -2319 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -4720 2400 -4719 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -7120 2400 -7119 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -9520 2400 -9519 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -11920 2400 -11919 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -12640 2400 -12639 2401 w=240 l=2000 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 14400 4800 14401 4801 w=240 l=2000 "None" "gnda" 3840 0 "gnda" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 12080 4800 12081 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 9680 4800 9681 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 7280 4800 7281 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 4880 4800 4881 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 2480 4800 2481 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 80 4800 81 4801 w=1840 l=2000 "None" "a" 7040 0 "b1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -2320 4800 -2319 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -4720 4800 -4719 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -7120 4800 -7119 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -9520 4800 -9519 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -11920 4800 -11919 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 0 0
-device csubckt sky130_fd_pr__cap_mim_m3_1 -12640 4800 -12639 4801 w=240 l=2000 "None" "gnda" 3840 0 "gnda" 0 0
-subcap "b2" -13327
-subcap "c2" -43173.8
+cap "gnda" "c2" 67088.5
+device csubckt sky130_fd_pr__cap_mim_m3_1 14400 2400 14401 2401 w=240 l=2000 "None" "gnda" 3840 0 "gnda" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 12080 2400 12081 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 9680 2400 9681 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 7280 2400 7281 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 4880 2400 4881 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 2480 2400 2481 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 80 2400 81 2401 w=1840 l=2000 "None" "a" 7040 0 "b2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -2320 2400 -2319 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -4720 2400 -4719 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -7120 2400 -7119 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -9520 2400 -9519 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -11920 2400 -11919 2401 w=1840 l=2000 "None" "a" 7040 0 "c2" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -12640 2400 -12639 2401 w=240 l=2000 "None" "gnda" 3840 0 "gnda" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 14400 4800 14401 4801 w=240 l=2000 "None" "gnda" 3840 0 "gnda" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 12080 4800 12081 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 9680 4800 9681 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 7280 4800 7281 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 4880 4800 4881 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 2480 4800 2481 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 80 4800 81 4801 w=1840 l=2000 "None" "a" 7040 0 "b1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -2320 4800 -2319 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -4720 4800 -4719 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -7120 4800 -7119 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -9520 4800 -9519 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -11920 4800 -11919 4801 w=1840 l=2000 "None" "a" 7040 0 "c1" 600 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 -12640 4800 -12639 4801 w=240 l=2000 "None" "gnda" 3840 0 "gnda" 600 0
+subcap "b2" -13203.5
+subcap "c2" -43050.3
 subcap "vssa" -37048
-subcap "a" -43110.5
-subcap "b1" -13291
-subcap "c1" -43108.2
-subcap "gnda" -120450
+subcap "a" -42987
+subcap "b1" -13167.4
+subcap "c1" -42984.6
+subcap "gnda" -116382

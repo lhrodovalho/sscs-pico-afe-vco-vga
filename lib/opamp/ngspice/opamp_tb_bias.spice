@@ -3,23 +3,21 @@
 * Include SkyWater sky130 device models
 .lib "/usr/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
 .param mc_mm_switch=0
-.include "../mag/opamp_corea1.spice"
-.include "../mag/opamp_corea2.spice"
+.include "../mag/opamp_core.spice"
 
 * supply voltages
 vdda  vdda 0 1.8
 vssa  vssa 0 0.0
 
 * DUT
-x0         gnb gna vdda vssa opamp_corea1
-x1 gpa gpb     gna vdda vssa opamp_corea2
-ib vdda gnb 1n
+x0 out q out ib q vdda bp vddx gnda vssa xn xp x y z opamp_core
+ib vdda ib 10n
 
 .option gmin=1e-15
 .control
 
 	dc ib 100p 10n 100p
-	plot gpa gpb gnb gna
+	plot bp vddx q
 
 .endc
 

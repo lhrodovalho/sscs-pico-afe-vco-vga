@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1638206930
+timestamp 1638390070
 << locali >>
 rect 4240 15710 4440 15720
 rect 4240 15690 4250 15710
@@ -56252,16 +56252,11 @@ rect 3440 -1116 3444 -1084
 rect 3476 -1116 3480 -1084
 rect 3440 -1160 3480 -1116
 rect 2480 -2240 3480 -1160
-rect 3600 -1084 3640 -1080
+rect 3600 -1084 4600 -1080
 rect 3600 -1116 3604 -1084
-rect 3636 -1116 3640 -1084
-rect 3600 -1160 3640 -1116
-rect 4520 -1084 4600 -1080
-rect 4520 -1116 4564 -1084
+rect 3636 -1116 4564 -1084
 rect 4596 -1116 4600 -1084
-rect 4520 -1120 4600 -1116
-rect 4560 -1160 4600 -1120
-rect 3600 -2240 4600 -1160
+rect 3600 -2240 4600 -1116
 rect 4720 -1084 4760 -1080
 rect 4720 -1116 4724 -1084
 rect 4756 -1116 4760 -1084
@@ -56271,15 +56266,11 @@ rect 5680 -1116 5684 -1084
 rect 5716 -1116 5720 -1084
 rect 5680 -1160 5720 -1116
 rect 4720 -2240 5720 -1160
-rect 5840 -1084 5880 -1080
+rect 5840 -1084 6840 -1080
 rect 5840 -1116 5844 -1084
-rect 5876 -1116 5880 -1084
-rect 5840 -1160 5880 -1116
-rect 6800 -1084 6840 -1080
-rect 6800 -1116 6804 -1084
+rect 5876 -1116 6804 -1084
 rect 6836 -1116 6840 -1084
-rect 6800 -1160 6840 -1116
-rect 5840 -2240 6840 -1160
+rect 5840 -2240 6840 -1116
 rect 6960 -1084 7000 -1080
 rect 6960 -1116 6964 -1084
 rect 6996 -1116 7000 -1084
@@ -75227,53 +75218,53 @@ rect 10160 -80 10360 15800
 rect 10160 -200 10200 -80
 rect 10320 -200 10360 -80
 rect 10160 -960 10360 -200
-use inv_bias  biasp ../../inv/mag
-timestamp 1637985316
+use inv_bias  biasp ../../inv1v8/mag
+timestamp 1638390070
 transform 1 0 0 0 1 520
 box 0 -520 4200 5040
 use inv_bias  biasm
-timestamp 1637985316
+timestamp 1638390070
 transform -1 0 10440 0 1 520
 box 0 -520 4200 5040
-use inv_2_2  ap ../../inv/mag
-timestamp 1637985251
-transform 1 0 0 0 1 5600
-box 0 0 4200 2000
-use inv_1_4  bp ../../inv/mag
-timestamp 1637603796
+use inv_1_4  bp ../../inv1v8/mag
+timestamp 1638390070
 transform 1 0 0 0 -1 9640
 box 0 0 4200 2000
 use inv_1_4  cp
-timestamp 1637603796
+timestamp 1638390070
 transform 1 0 0 0 1 9680
 box 0 0 4200 2000
-use inv_2_2  am
-timestamp 1637985251
-transform -1 0 10440 0 1 5600
+use inv_2_2  ap ../../inv1v8/mag
+timestamp 1638390070
+transform 1 0 0 0 1 5600
 box 0 0 4200 2000
 use inv_1_4  bm
-timestamp 1637603796
+timestamp 1638390070
 transform -1 0 10440 0 -1 9640
 box 0 0 4200 2000
 use inv_1_4  cm
-timestamp 1637603796
+timestamp 1638390070
 transform -1 0 10440 0 1 9680
 box 0 0 4200 2000
-use inv_2_2  fp
-timestamp 1637985251
-transform 1 0 0 0 1 13760
+use inv_2_2  am
+timestamp 1638390070
+transform -1 0 10440 0 1 5600
 box 0 0 4200 2000
 use inv_1_4  d
-timestamp 1637603796
+timestamp 1638390070
 transform 1 0 0 0 -1 13720
 box 0 0 4200 2000
-use inv_2_2  fm
-timestamp 1637985251
-transform -1 0 10440 0 1 13760
+use inv_2_2  fp
+timestamp 1638390070
+transform 1 0 0 0 1 13760
 box 0 0 4200 2000
 use inv_1_4  e
-timestamp 1637603796
+timestamp 1638390070
 transform -1 0 10440 0 -1 13720
+box 0 0 4200 2000
+use inv_2_2  fm
+timestamp 1638390070
+transform -1 0 10440 0 1 13760
 box 0 0 4200 2000
 << labels >>
 rlabel metal3 5600 0 5640 15760 0 im
