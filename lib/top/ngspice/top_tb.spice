@@ -7,11 +7,11 @@
 
 
 * supply voltages
-vdda	vdda 0 1.8
-vgnda   gnda 0 0.9
+vdda	vdda 0 1.0
+vgnda   gnda 0 0.5
 vssa	vssa 0 0.0
 
-vdda1	vdda1 0 1.8
+vdda1	vdda1 0 1.0
 vssa1	vssa1 0 0.0
 
 
@@ -20,7 +20,7 @@ vin   in gnda dc 0 ac 1 SINE(0 50m 1 0 0 0)
 eip   ip gnda in gnda  0.5
 einm  im gnda in gnda -0.5
 
-vfsb  fsb vssa dc 1.8 pulse(0 1.8 1 10m 1m 10 1)
+vfsb  fsb vssa dc 1.0 pulse(0 1.0 1 10m 1m 10 10)
 
 ib vdda ib 10n
 
@@ -141,7 +141,7 @@ x0 gpio_analog[0] gpio_analog[10] gpio_analog[11]
 .option gmin=1e-14
 *.option NOOPITER
 .option NOINIT
-*.option METHOD=Gear
+.option METHOD=Gear
 .control
 	op
 	print ip im op om i(vdda) ib
@@ -149,9 +149,10 @@ x0 gpio_analog[0] gpio_analog[10] gpio_analog[11]
 	ac dec 10 1m 1Meg
 	plot vdb(op) vdb(ip) vdb(x0.xafe_0.xp)
 
-	tran 1m 3 100m
-	plot ip im op om
+	tran 1m 5 100m
+	plot ip im op om fsb ib
 	plot ip-im op-om
+	plot i(vdda1)
 *	wrdata ../data/afe_tb_tran.txt ip im op om    
 .endc
 
