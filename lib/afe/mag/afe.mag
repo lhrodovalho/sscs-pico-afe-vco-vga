@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1638398658
+timestamp 1638409393
 << locali >>
 rect -480 20950 -440 20960
 rect -480 20930 -470 20950
@@ -4513,14 +4513,14 @@ rect 62360 18720 62400 18840
 rect 62200 18680 62400 18720
 rect 62600 18680 62800 18880
 rect 63000 18680 63200 18880
-use lna  lna ../../lna/mag
-timestamp 1638398658
-transform 1 0 16640 0 1 280
-box -16640 -2120 21680 39560
 use opamp_pair  buffer ../../opamp/mag
-timestamp 1638398658
+timestamp 1638409325
 transform 1 0 40360 0 1 22360
 box -1640 -23720 22960 17000
+use lna  lna ../../lna/mag
+timestamp 1638398216
+transform 1 0 16640 0 1 280
+box -16640 -2120 21680 39560
 << labels >>
 rlabel metal2 38320 20200 38360 20240 1 xp
 rlabel metal2 38320 18200 38360 18240 1 xm

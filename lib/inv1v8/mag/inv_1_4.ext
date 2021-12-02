@@ -1,4 +1,4 @@
-timestamp 1638398658
+timestamp 1638390070
 version 8.3
 tech sky130A
 style ngspice()
@@ -29,37 +29,37 @@ node "bp" 1862 17093.9 0 2560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "vddx" 43666 66900.6 1120 0 m5 0 0 0 0 9139200 18560 0 0 1433600 35840 240000 3200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1536000 38560 1699200 50320 1344000 33920 1568000 47040 3360000 17600 3200000 17600 0 0
 node "vdda" 42432 51209.3 160 0 m5 0 0 0 0 9139200 18560 0 0 1433600 35840 120000 1600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1488000 37200 48000 1360 32000 960 32000 960 3360000 17600 3200000 17600 0 0
 substrate "vssa" 0 0 3040 0 m5 0 0 0 0 0 0 0 0 40000 800 4492800 112320 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4617600 114800 16000 560 16000 560 16000 560 3360000 17600 3200000 17600 0 0
-cap "pa3" "vdda" 273.8
-cap "bp" "vddx" 27433.1
 cap "gnda" "n3" 63.3333
-cap "vddx" "out" 656.52
+cap "gnda" "n1" 63.3333
 cap "pa3" "gnda" 146.8
-cap "bp" "vdda" 6885.34
-cap "vdda" "out" 568.56
-cap "bp" "gnda" 1571.28
+cap "vdda" "vddx" 18805.6
 cap "gnda" "out" 20258.9
-cap "gnda" "n2" 63.3333
-cap "in" "vddx" 5342.86
-cap "in" "vdda" 889.2
-cap "vddx" "pb1" 68.7
-cap "in" "gnda" 25866.3
-cap "vddx" "pb3" 68.7
-cap "vddx" "vdda" 18805.6
-cap "gnda" "pb1" 168.4
-cap "vddx" "pb2" 68.7
-cap "vddx" "pa2" 12.8571
-cap "gnda" "vddx" 9209.56
-cap "vdda" "pa2" 273.8
-cap "gnda" "pb3" 168.4
-cap "gnda" "vdda" 6477.92
 cap "vddx" "pa1" 12.8571
+cap "vddx" "pa2" 12.8571
+cap "vdda" "bp" 6885.34
+cap "pb1" "vddx" 68.7
+cap "vdda" "in" 889.2
 cap "gnda" "pb2" 168.4
-cap "gnda" "pa2" 146.8
-cap "vdda" "pa1" 273.8
-cap "gnda" "pa1" 146.8
-cap "in" "out" 2377.2
 cap "pa3" "vddx" 12.8571
-cap "n1" "gnda" 63.3333
+cap "vddx" "out" 656.52
+cap "out" "in" 2377.2
+cap "vddx" "pb2" 68.7
+cap "vdda" "pa1" 273.8
+cap "vdda" "pa2" 273.8
+cap "gnda" "vddx" 9209.56
+cap "gnda" "pb3" 168.4
+cap "gnda" "n2" 63.3333
+cap "pa3" "vdda" 273.8
+cap "gnda" "bp" 1571.28
+cap "vdda" "out" 568.56
+cap "gnda" "in" 25866.3
+cap "vddx" "pb3" 68.7
+cap "vddx" "bp" 27433.1
+cap "vddx" "in" 5342.86
+cap "gnda" "vdda" 6477.92
+cap "gnda" "pa1" 146.8
+cap "gnda" "pa2" 146.8
+cap "pb1" "gnda" 168.4
 device msubckt sky130_fd_pr__nfet_01v8 6280 160 6281 161 l=1600 w=200 "vssa" "in" 3200 0 "n3" 200 0 "out" 200 0
 device msubckt sky130_fd_pr__nfet_01v8 4360 160 4361 161 l=1600 w=200 "vssa" "in" 3200 0 "n2" 200 0 "n3" 200 0
 device msubckt sky130_fd_pr__nfet_01v8 2440 160 2441 161 l=1600 w=200 "vssa" "in" 3200 0 "n1" 200 0 "n2" 200 0

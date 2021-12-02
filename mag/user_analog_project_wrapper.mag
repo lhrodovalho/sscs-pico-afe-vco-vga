@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1638393769
+timestamp 1638409547
 << metal2 >>
 rect 262 -400 318 240
 rect 853 -400 909 240
@@ -1029,7 +1029,7 @@ rect -50 0 0 352000
 rect 292000 0 292050 352000
 rect -50 -50 292050 0
 use afe  afe_0 ../lib/afe/mag
-timestamp 1638393769
+timestamp 1638409393
 transform -1 0 279580 0 1 298920
 box -3520 -1840 63720 39880
 << labels >>

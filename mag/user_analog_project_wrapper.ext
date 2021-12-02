@@ -1,4 +1,4 @@
-timestamp 1638393769
+timestamp 1638409547
 version 8.3
 tech sky130A
 style ngspice()
@@ -1387,46 +1387,46 @@ node "wbs_ack_o" 1 631.648 2888 -800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "wb_rst_i" 1 631.648 1706 -800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 143360 2784 0 0 0 0 0 0 0 0
 node "wb_clk_i" 1 631.648 524 -800 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 143360 2784 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "io_clamp_low[1]" "io_analog[5]" 525
-cap "io_analog[4]" "io_analog[4]" 21250
-cap "io_analog[6]" "io_analog[6]" 108
-cap "io_analog[4]" "io_analog[0]" 19010.9
+cap "io_clamp_low[0]" "io_analog[4]" 525
+cap "io_analog[4]" "io_clamp_high[0]" 525
+cap "io_analog[6]" "vssa1" 792
+cap "io_analog[5]" "io_analog[5]" 21250
+cap "io_analog[3]" "io_analog[2]" 1584
+cap "io_analog[0]" "io_analog[4]" 19010.9
+cap "io_analog[0]" "io_analog[2]" 5364
+cap "io_analog[4]" "io_analog[4]" 26392
+cap "io_clamp_high[1]" "io_clamp_low[1]" 525
+cap "io_analog[0]" "io_analog[5]" 3874
+cap "io_analog[6]" "io_analog[0]" 3168
+cap "io_analog[6]" "io_analog[6]" 26250
+cap "io_analog[6]" "io_analog[6]" 21250
+cap "io_analog[6]" "io_analog[6]" 21250
+cap "io_analog[6]" "io_clamp_high[2]" 525
+cap "io_analog[5]" "io_analog[5]" 108
+cap "io_analog[1]" "io_analog[3]" 792
+cap "io_analog[6]" "io_analog[6]" 26392
+cap "io_clamp_low[0]" "io_clamp_high[0]" 525
+cap "io_analog[5]" "io_analog[5]" 26250
+cap "io_analog[0]" "io_analog[1]" 3168
+cap "io_analog[3]" "vssa1" 792
+cap "io_analog[0]" "vssa1" 3960
 cap "io_analog[5]" "io_analog[5]" 21250
 cap "io_analog[4]" "io_analog[5]" 792
-cap "io_analog[6]" "io_analog[6]" 21250
-cap "io_analog[5]" "io_analog[5]" 108
-cap "io_analog[4]" "io_analog[6]" 792
-cap "io_analog[0]" "io_analog[2]" 5364
-cap "io_clamp_high[0]" "io_clamp_low[0]" 525
-cap "io_analog[5]" "io_clamp_high[1]" 525
-cap "io_analog[4]" "io_analog[4]" 26250
-cap "io_analog[3]" "io_analog[2]" 1584
-cap "vssa1" "io_analog[2]" 792
-cap "io_clamp_low[2]" "io_analog[6]" 525
-cap "io_clamp_low[0]" "io_analog[4]" 525
-cap "io_analog[6]" "io_analog[6]" 26392
-cap "io_analog[1]" "io_analog[2]" 792
-cap "io_analog[5]" "io_analog[5]" 26392
-cap "io_analog[0]" "io_analog[5]" 3874
-cap "io_clamp_high[0]" "io_analog[4]" 525
-cap "io_clamp_high[2]" "io_analog[6]" 525
-cap "io_analog[0]" "io_analog[3]" 5364
-cap "io_analog[0]" "io_analog[6]" 3168
-cap "vssa1" "io_analog[0]" 3960
-cap "io_analog[5]" "io_analog[6]" 792
-cap "io_analog[6]" "io_analog[6]" 26250
-cap "io_analog[4]" "io_analog[4]" 26392
-cap "io_clamp_low[1]" "io_clamp_high[1]" 525
-cap "io_analog[5]" "io_analog[5]" 26250
 cap "io_analog[4]" "io_analog[4]" 21250
-cap "vssa1" "io_analog[3]" 792
-cap "io_analog[0]" "io_analog[1]" 3168
-cap "io_analog[5]" "io_analog[5]" 21250
-cap "vssa1" "io_analog[6]" 792
+cap "io_analog[6]" "io_analog[4]" 792
+cap "io_analog[6]" "io_analog[6]" 108
+cap "io_analog[6]" "io_analog[5]" 792
+cap "io_analog[4]" "io_analog[4]" 26250
+cap "io_analog[0]" "io_analog[3]" 5364
+cap "io_analog[5]" "io_analog[5]" 26392
+cap "io_analog[5]" "io_clamp_low[1]" 525
+cap "io_analog[5]" "io_clamp_high[1]" 525
+cap "io_analog[1]" "io_analog[2]" 792
+cap "io_analog[6]" "io_clamp_low[2]" 525
+cap "io_clamp_high[2]" "io_clamp_low[2]" 525
+cap "vssa1" "io_analog[2]" 792
+cap "io_analog[4]" "io_analog[4]" 21250
 cap "io_analog[4]" "io_analog[4]" 108
-cap "io_analog[1]" "io_analog[3]" 792
-cap "io_clamp_low[2]" "io_clamp_high[2]" 525
-cap "io_analog[6]" "io_analog[6]" 21250
 subcap "wb_clk_i" -296.744
 subcap "wb_clk_i" -334.904
 subcap "wbs_sel_i[1]" -264.308

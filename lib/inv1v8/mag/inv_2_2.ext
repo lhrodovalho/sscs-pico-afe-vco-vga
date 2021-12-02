@@ -1,4 +1,4 @@
-timestamp 1638398658
+timestamp 1638390070
 version 8.3
 tech sky130A
 style ngspice()
@@ -26,31 +26,31 @@ node "bp" 1862 17093.9 0 2560 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "vddx" 46000 67785.9 1120 0 m5 0 0 0 0 9139200 18560 0 0 1433600 35840 480000 6400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1638400 41280 1830400 53600 1344000 33920 1568000 47040 3360000 17600 3200000 17600 0 0
 node "vdda" 42210 50845.4 160 0 m5 0 0 0 0 9139200 18560 0 0 1433600 35840 192000 1840 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1488000 37200 48000 1360 32000 960 32000 960 3360000 17600 3200000 17600 0 0
 substrate "vssa" 0 0 3040 0 m5 0 0 0 0 0 0 0 0 80000 1600 4492800 112320 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4640000 115360 32000 1120 32000 1120 32000 1120 3360000 17600 3200000 17600 0 0
-cap "pb1" "vddx" 68.7
-cap "in" "out" 2437.2
-cap "in" "gnda" 25820.7
-cap "vdda" "bp" 6885.34
-cap "out" "vddx" 409.02
-cap "pb1" "gnda" 168.4
-cap "vddx" "gnda" 9205.4
-cap "out" "gnda" 20509.7
-cap "pa2" "vddx" 12.8571
-cap "vdda" "pa1" 273.8
 cap "pb2" "vddx" 68.7
-cap "pa2" "gnda" 146.8
-cap "pb2" "gnda" 168.4
-cap "bp" "vddx" 27463.1
-cap "n1" "gnda" 63.3333
-cap "bp" "gnda" 1571.28
-cap "vddx" "pa1" 12.8571
-cap "n2" "gnda" 63.3333
-cap "vdda" "in" 889.2
-cap "pa1" "gnda" 146.8
-cap "vdda" "vddx" 19721.9
-cap "vdda" "out" 201.6
-cap "vdda" "gnda" 6945.04
+cap "out" "vdda" 201.6
 cap "vdda" "pa2" 273.8
-cap "in" "vddx" 5342.86
+cap "vddx" "bp" 27463.1
+cap "gnda" "in" 25820.7
+cap "gnda" "n1" 63.3333
+cap "gnda" "vddx" 9205.4
+cap "vddx" "pa1" 12.8571
+cap "vdda" "in" 889.2
+cap "gnda" "pb1" 168.4
+cap "out" "in" 2437.2
+cap "vdda" "vddx" 19721.9
+cap "gnda" "pb2" 168.4
+cap "out" "vddx" 409.02
+cap "gnda" "bp" 1571.28
+cap "vddx" "pa2" 12.8571
+cap "vdda" "bp" 6885.34
+cap "gnda" "n2" 63.3333
+cap "gnda" "pa1" 146.8
+cap "vddx" "in" 5342.86
+cap "gnda" "vdda" 6945.04
+cap "vdda" "pa1" 273.8
+cap "vddx" "pb1" 68.7
+cap "gnda" "out" 20509.7
+cap "gnda" "pa2" 146.8
 device msubckt sky130_fd_pr__nfet_01v8 6280 160 6281 161 l=1600 w=200 "vssa" "in" 3200 0 "n2" 200 0 "vssa" 200 0
 device msubckt sky130_fd_pr__nfet_01v8 4360 160 4361 161 l=1600 w=200 "vssa" "in" 3200 0 "out" 200 0 "n2" 200 0
 device msubckt sky130_fd_pr__nfet_01v8 2440 160 2441 161 l=1600 w=200 "vssa" "in" 3200 0 "n1" 200 0 "out" 200 0
